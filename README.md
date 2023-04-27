@@ -61,15 +61,15 @@ This script requires curl to be installed on your system. Most Unix-based system
 
 Usage
 
-Save the script as find_files.sh in a directory of your choice.
+Save the script as file-sniff.sh in a directory of your choice.
 
 Make the script executable with the following command:
 
-chmod +x find_files.sh
+chmod +x file-sniff.sh
 
 Run the script using:
 
-./find_files.sh
+./file-sniff.sh
 
 Enter the target website URL when prompted, and the script will begin scanning for the specified files and directories.
 
