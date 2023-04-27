@@ -56,10 +56,13 @@ composer.lock
 server-status
 
 Prerequisites
+
 This script requires curl to be installed on your system. Most Unix-based systems come with curl pre-installed. If not, you can install it using the package manager for your operating system.
 
 Usage
+
 Save the script as find_files.sh in a directory of your choice.
+
 Make the script executable with the following command:
 
 chmod +x find_files.sh
@@ -75,4 +78,5 @@ If any files are found, their URLs will be displayed in the terminal and saved i
 If no specified files are found, the script will display a message to inform you.
 
 Customization
+
 To add or remove files and directories from the list of items to scan, simply modify the files_to_search array in the script. Add or remove the desired filenames or directory names as needed.
