@@ -77,6 +77,21 @@ If any files are found, their URLs will be displayed in the terminal and saved i
 
 If no specified files are found, the script will display a message to inform you.
 
+
+Adding More Files to Search For
+
+
+If you want to extend the list of files and directories the script scans for, follow these steps:
+
+Open the find_files.sh script in a text editor.
+Locate the files_to_search array within the script.
+Add new filenames or directory names as elements in the array, separated by spaces, like this:
+
+files_to_search=("existing_file1" "existing_file2" "new_file1" "new_directory1")
+
+Save the changes and run the script as usual. The newly added files and directories will be included in the scan.
+
+
 Customization
 
 To add or remove files and directories from the list of items to scan, simply modify the files_to_search array in the script. Add or remove the desired filenames or directory names as needed.
