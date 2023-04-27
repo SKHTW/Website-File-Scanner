@@ -12,7 +12,7 @@ Files and Directories Scanned
 This script scans for the following files and directories:
 
 robots.txt
-sitemap.xml
+sitemap.xml 
 .DS_Store
 .htaccess
 .htpasswd
