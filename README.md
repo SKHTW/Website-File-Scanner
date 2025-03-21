@@ -60,17 +60,17 @@ Prerequisites
 This script requires curl to be installed on your system. Most Unix-based systems come with curl pre-installed. If not, you can install it using the package manager for your operating system.
 
 Usage
-
-Save the script as file-sniff.sh in a directory of your choice.
-
+```bash
+git clone https://github.com/SKHTW/Website-File-Scanner.git
+```
 Make the script executable with the following command:
-
+```bash
 chmod +x file-sniff.sh
-
+```
 Run the script using:
-
+```bash
 ./file-sniff.sh
-
+```
 Enter the target website URL when prompted, and the script will begin scanning for the specified files and directories.
 
 If any files are found, their URLs will be displayed in the terminal and saved in a text file named found_files.txt in the same directory as the script.
